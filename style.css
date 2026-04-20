@@ -1,0 +1,36 @@
+/* Style for the Pong game */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    border: 2px solid white;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.score {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Overall page styling */
+h1 {
+    color: white;
+    text-align: center;
+}
